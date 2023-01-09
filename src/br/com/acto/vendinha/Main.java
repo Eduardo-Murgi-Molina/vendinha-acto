@@ -2,10 +2,12 @@ package br.com.acto.vendinha;
 
 import br.com.acto.vendinha.db.ConnectionFactory;
 import br.com.acto.vendinha.db.PostgreSQLConnection;
+import br.com.acto.vendinha.entity.ClienteEntity;
 import br.com.acto.vendinha.entity.PessoaFisicaEntity;
 import br.com.acto.vendinha.entity.PessoaJuridicaEntity;
 import br.com.acto.vendinha.model.PessoaFisica;
 import br.com.acto.vendinha.model.PessoaJuridica;
+
 
 public class Main {
 
@@ -33,4 +35,6 @@ public class Main {
         System.out.println(pessoaJuridicaEntity.buscarTodos());
 
     }
+
+
 }
